@@ -1,0 +1,138 @@
+[
+    {
+        "role": "user",
+        "sentence": "嘿，我想找个大房子租呢，最好四室以上的，有推荐吗？",
+        "type": "开始,相对模糊",
+        "target_feature": [
+            "户型"
+        ],
+        "token": [
+            "户型"
+        ],
+        "value": [
+            "四居以上"
+        ]
+    },
+    {
+        "role": "agent",
+        "sentence": "您对住房还有哪些其他需求呢？比如，您偏好哪种方式（如短租、长租、合租等）、有什么特色的房屋设施是您重点关注的，或者您希望住在哪个区域？如果您的需求不在上述范畴内，还有其他方面需要我了解吗？请告诉我，我会尽力满足您的需求。",
+        "type": "token_question",
+        "target_feature": null,
+        "token": null,
+        "value": null
+    },
+    {
+        "role": "user",
+        "sentence": "我想找长寿区的合租房子，最好朝北的。谢谢！",
+        "type": "精准",
+        "target_feature": [
+            "区域",
+            "方式",
+            "朝向"
+        ],
+        "token": [
+            "区域",
+            "方式",
+            "朝向"
+        ],
+        "value": [
+            "长寿",
+            "合租",
+            "朝北"
+        ]
+    },
+    {
+        "role": "agent",
+        "sentence": "请问您是指您对合租房子的特色有特定的需求吗？",
+        "type": "clarify_token",
+        "target_feature": "特色",
+        "token": null,
+        "value": null
+    },
+    {
+        "role": "agent",
+        "sentence": "您好！非常感谢您的要求。为了更好地满足您的需求，我们可以提供以下几个选项以帮助您更好地选择：\n1. 是否需要进行直播看房？\n2. 是否需要房屋有视频展示？\n3. 是否需要租房满两年？\n4. 是否需要房本验证？\n5. 是否需要租房满五年？\n请告诉我您对以上选项的偏好，这样我们可以更好地帮助您找到理想的合租房。谢谢！",
+        "type": "辅助确认",
+        "target_feature": "特色",
+        "token": null,
+        "value": null
+    },
+    {
+        "role": "user",
+        "sentence": "以上选项中都不是我需要的。",
+        "type": "不存在于选项中",
+        "target_feature": null,
+        "token": null,
+        "value": null
+    },
+    {
+        "role": "agent",
+        "sentence": "您好！为了更好地满足您的要求，以下是一些可能的选择，请告知您偏好的选项：\n1. 您是否希望房屋靠近地铁站呢？\n2. 是否需要有电梯的房子呢？\n3. 您是否喜欢住在有VR技术的小区？\n4. 是否需要房屋有双重验真的保障？\n5. 是否有兴趣通过VR看房来选择房子呢？\n期待您的回复，谢谢！",
+        "type": "辅助确认",
+        "target_feature": "特色",
+        "token": null,
+        "value": null
+    },
+    {
+        "role": "user",
+        "sentence": "以上选项中都不符合我的需求。",
+        "type": "不存在于选项中",
+        "target_feature": null,
+        "token": null,
+        "value": null
+    },
+    {
+        "role": "agent",
+        "sentence": "您好！为了更好地帮助您找到符合要求的合租房子，我们有一些可供选择的选项，请您告诉我您更偏好的是哪个选项呢？是视频看房、不看商住、有电梯、VR房源还是特价房？期待您的选择，谢谢！",
+        "type": "辅助确认",
+        "target_feature": "特色",
+        "token": null,
+        "value": null
+    },
+    {
+        "role": "user",
+        "sentence": "这些选项都不符合我的需求。",
+        "type": "不存在于选项中",
+        "target_feature": null,
+        "token": null,
+        "value": null
+    },
+    {
+        "role": "agent",
+        "sentence": "\"您对 '长寿区的合租房子' 的要求非常清楚，但对于 '朝北的' 部分不太明确。我们目前有以下几个选项可供选择：\n1. 房间朝向北方\n2. 房子整体朝向北方\n3. 我不确定朝向，但想找一间在阳光不直射的房间\n\n请告诉我您更倾向于哪种类型，或者如果以上选项都不符合您的需求，请详细描述您想要的朝北特色，谢谢！\"",
+        "type": "辅助确认+重述",
+        "target_feature": "特色",
+        "token": null,
+        "value": null
+    },
+    {
+        "role": "user",
+        "sentence": "我想找一间在阳光不直射的房间。",
+        "type": "存在于选项中",
+        "target_feature": null,
+        "token": null,
+        "value": null
+    },
+    {
+        "role": "agent",
+        "sentence": "客服：您好，请问您对想要租住的房屋类型有什么要求呢？比如公寓、联排别墅、独栋别墅等。除此之外，您还对房屋的特色或者距离有其他需求吗？如果有其他需求，请告诉我，我会尽力帮您。",
+        "type": "token_question",
+        "target_feature": null,
+        "token": null,
+        "value": null
+    },
+    {
+        "role": "user",
+        "sentence": "我只需要住宅类型的房子就可以。",
+        "type": "精准",
+        "target_feature": [
+            "房屋类型"
+        ],
+        "token": [
+            "房屋类型"
+        ],
+        "value": [
+            "住宅"
+        ]
+    }
+]

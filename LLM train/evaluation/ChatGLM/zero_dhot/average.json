@@ -1,0 +1,7 @@
+{
+  "Precision": 0.8695899772209568,
+  "Average BLEU Score 1-gram": 0.9673974943052391,
+  "Average BLEU Score 2-gram": 0.9618037886627054,
+  "Average BLEU Score 3-gram": 0.9521236503471524,
+  "Average BLEU Score 4-gram": 0.8695899772209568
+}

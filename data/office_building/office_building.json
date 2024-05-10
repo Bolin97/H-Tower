@@ -1,0 +1,44 @@
+[
+  {
+    "page_index": 1,
+    "image": "id4_scrnli_2023_8_8 18-29-19.png",
+   "website": "https://cq.office.fang.com/",
+    "type": "租写字楼",
+    "required_tokens": ["区域","租金"]
+  },
+   {
+     "page_index": 2,
+     "image": "id4_scrnli_2023_8_8 18-29-26.png",
+   "website": "https://cq.office.fang.com/zu/house1/",
+    "type": "租写字楼",
+     "required_tokens": ["面积"]
+  },
+  {
+    "page_index": 3,
+    "image": "id4_scrnli_2023_8_8 18-32-37.png",
+   "website": "https://shangye.ke.com/cd/xzl/rent/mlist",
+    "type": "租写字楼",
+    "required_tokens": []
+  },
+  {
+    "page_index": 4,
+    "image": "id4_scrnli_2023_8_8 18-32-42.png",
+   "website": "https://shangye.ke.com/cd/xzl/buy/mlist",
+    "type": "购买写字楼",
+    "required_tokens": []
+  },
+  {
+    "page_index": 5,
+    "image": "id4_scrnli_2023_8_10 18-14-48.png",
+   "website": "https://cq.sydc.anjuke.com/xzl-zu/",
+    "type": "租写字楼",
+    "required_tokens": []
+  },
+  {
+    "page_index": 6,
+    "image": "id4_scrnli_2023_8_10 18-15-14.png",
+   "website": "https://cq.fang.anjuke.com/xzl/all/w5/",
+    "type": "购买写字楼",
+    "required_tokens": []
+  }
+]
