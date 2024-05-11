@@ -258,7 +258,7 @@ def formulate_gpt_question(demand, param_1, param_2, s_type, extra_1=None, extra
         "safe_mode": False
     })
     headers = {
-        'Authorization': 'Bearer fk208078-Z9HS0S4q3UkYDOo8WxsEp3EK4rg0YuGc',
+        'Authorization': 'Bearer fk208078-xxxxxxxxxxxxxxxx',
         'User-Agent': 'Apifox/1.0.0 (https://apifox.com)',
         'Content-Type': 'application/json'
     }
