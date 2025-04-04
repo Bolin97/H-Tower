@@ -57,36 +57,36 @@ import math
 MAX_DIALOGUE_ROUNDS = 10  # 设置最大对话轮数限制
 
 class UserType:
-    def __init__(self, type_name):
+    def __init__(self, type_name, token_long=150, k=2.55, x0=1.55, alpha=0.88, beta=0.88, lambda_=2.25):
         self.type_name = type_name
         self.total_tokens = 0
         self.expected_needs = 0
         self.matched_needs = 0
-        self.token_long = 150
+        self.token_long = token_long  # 指数型用户的token长度阈值
+        self.k = k  # 指数型用户的斜率参数
+        self.x0 = x0  # 指数型用户的中点参数
+        self.alpha = alpha  # 期望型用户的收益参数
+        self.beta = beta  # 期望型用户的损失参数
+        self.lambda_ = lambda_  # 期望型用户的损失厌恶系数
         self.matched_keys_count = 0
         self.unmatched_keys_count = 0
         self.user_features = {}
 
-    def value_function(self, x, alpha=0.88, beta=0.88, lambda_=2.25):
+    def value_function(self, x):
         """
         计算价值函数V(x)。
         :param x: 收益情况为匹配键的数量，损失情况为不匹配键的数量
-        :param alpha: 收益参数 (0 < alpha < 1)
-        :param beta: 损失参数 (beta < 1)
-        :param lambda_: 损失厌恶系数 (lambda_ > 1)
         :return: 感知价值V(x)
         """
         if x >= 0:  # 收益情况
-            return x ** alpha
+            return x ** self.alpha
         else:  # 损失情况
-            return -lambda_ * (-x) ** beta
+            return -self.lambda_ * (-x) ** self.beta
 
     def should_end_conversation(self):
         if self.type_name == "exponential":
             normalized_x = self.total_tokens / self.token_long
-            k = 2.55
-            x0 = 1.55
-            f_x = 1 / (1 + math.exp(-k * (normalized_x - x0)))
+            f_x = 1 / (1 + math.exp(-self.k * (normalized_x - self.x0)))
 
             return f_x > 0.8,f_x
         elif self.type_name == "expectation":
