@@ -1,4 +1,4 @@
-# 对话数据集生成与分析系统
+# HTOWER对话数据集生成与分析系统
 
 ## 项目简介
 本项目是一个用于生成和分析对话数据集的系统，主要包含三个核心功能模块：
@@ -125,9 +125,25 @@ python agent2agent.py
 - `--user_type`: 用户类型，可选值：normal, expectation, exponential
 - `--max_rounds`: 最大对话轮数，默认为10
 
+用户类型参数配置：
+1. 指数型用户(exponential)参数：
+   - `token_long`: token长度阈值，默认值150
+   - `k`: Logistic函数斜率参数，默认值2.55
+   - `x0`: Logistic函数中点参数，默认值1.55
+
+2. 期望型用户(expectation)参数：
+   - `alpha`: 收益参数(0 < alpha < 1)，默认值0.88
+   - `beta`: 损失参数(beta < 1)，默认值0.88
+   - `lambda_`: 损失厌恶系数(lambda_ > 1)，默认值2.25
+
 示例：
 ```bash
+# 使用默认参数
 python agent2agent.py --domain car --user_type expectation --max_rounds 15
+
+# 自定义用户参数
+python agent2agent.py --domain car --user_type exponential --max_rounds 15 --token_long 200 --k 2.8 --x0 1.6
+python agent2agent.py --domain car --user_type expectation --max_rounds 15 --alpha 0.85 --beta 0.85 --lambda_ 2.5
 ```
 
 #### 常规方法
