@@ -1,0 +1,241 @@
+[
+  {
+    "token": "品牌",
+    "token_type": "选项",
+    "TF": 10,
+    "annotation":"车辆的品牌",
+    "average_item_num": 6,
+    "pages": [
+      {"page_number": 1, "value":["品牌"]},
+      {"page_number": 2, "value":["品牌"]},
+      {"page_number": 3, "value":["品牌"]},
+      {"page_number": 4, "value":["品牌"]},
+      {"page_number": 5, "value":["品牌"]}
+
+    ]
+  },
+  {
+    "token": "价格",
+    "token_type": "范围",
+    "annotation":"车辆的价格",
+    "TF": 6,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["价格"]},
+      {"page_number": 2, "value":["价格"]},
+      {"page_number": 3, "value":["价格"]},
+      {"page_number": 4, "value":["价格"]},
+      {"page_number": 5, "value":["价格"]},
+      {"page_number": 6, "value":["价格"]}
+    ]
+  },
+  {
+    "token": "级别",
+    "annotation":"车辆的级别",
+       "token_type": "选项",
+   "TF": 6,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["级别"]},
+      {"page_number": 2, "value":["级别"]},
+      {"page_number": 3, "value":["级别"]},
+      {"page_number": 4, "value":["级别"]},
+      {"page_number": 5, "value":["级别"]},
+      {"page_number": 6, "value":["级别"]}
+    ]
+  },
+  {
+    "token": "能源",
+    "annotation":"车辆的能源类型",
+    "token_type": "选项",
+    "TF": 3,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["能源"]},
+      {"page_number": 3, "value":["能源"]},
+      {"page_number": 4, "value":["驱动类型"]},
+      {"page_number": 6, "value":["能源"]}
+    ]
+  },
+  {
+    "token": "里程",
+    "annotation":"车辆已经跑过的里程",
+    "token_type": "范围",
+    "TF": 1,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["里程"]}
+
+    ]
+  },
+  {
+    "token": "车龄",
+    "annotation":"车辆被使用过的年限",
+    "token_type": "范围",
+    "TF": 1,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["车龄"]}
+    ]
+  },
+  {
+    "token": "变速箱",
+    "annotation":"变速箱类型",
+    "token_type": "选项",
+    "TF": 3,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["变速箱"]},
+      {"page_number": 3, "value":["变速箱"]},
+      {"page_number": 4, "value":["变速箱"]}
+    ]
+  },
+  {
+    "token": "排量标准",
+    "annotation":"车辆的排量标准",
+    "token_type": "选项",
+    "TF": 1,
+    "average_item_num": 0,
+    "pages": [
+        {"page_number": 1, "value":["排量标准"]}
+
+    ]
+  }, {
+    "token": "排量",
+    "annotation":"车辆的排量",
+    "token_type": "范围",
+    "TF": 2,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 3, "value":["排量"]},
+      {"page_number": 4, "value":["排量"]}
+    ]
+  },
+  {
+    "token": "驱动",
+    "annotation":"车辆的驱动方式",
+    "token_type": "选项",
+    "TF": 3,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["驱动"]},
+      {"page_number": 3, "value":["驱动方式"]},
+      {"page_number": 4, "value":["驱动方式"]}
+    ]
+  },
+  {
+    "token": "厂商属性",
+    "annotation":"汽车的厂商属性",
+    "token_type": "选项",
+    "TF": 1,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["厂商属性"]}
+    ]
+  },
+  {
+    "token": "懂车分",
+    "annotation":"懂车分是汽车评价系统5分代表优秀。4分到5分表示表现良好。3分到4分表示中规中矩1.5分到2.5分表示缺点明显",
+    "token_type": "范围",
+    "TF": 3,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 2, "value":["懂车分"]},
+      {"page_number": 3, "value":["懂车分"]},
+      {"page_number": 4, "value":["懂车分"]}
+    ]
+  },
+  {
+    "token": "续航",
+    "annotation":"电池续航里程",
+    "token_type": "范围",
+    "TF": 3,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 3, "value":["续航"]},
+      {"page_number": 4, "value":["续航"]},
+      {"page_number": 6, "value":["续航"]}
+    ]
+  },
+  {
+    "token": "国别",
+    "annotation":"车辆的生产国家",
+    "token_type": "选项",
+    "TF": 3,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 3, "value":["国别"]},
+      {"page_number": 4, "value":["国别"]},
+      {"page_number": 5, "value":["国别"]}
+    ]
+  },
+  {
+    "token": "结构",
+    "annotation":"车身结构",
+    "token_type": "选项",
+    "TF": 3,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 3, "value":["结构"]},
+      {"page_number": 4, "value":["结构"]},
+      {"page_number": 5, "value":["结构"]}
+    ]
+  },
+  {
+    "token": "座位数",
+    "annotation": "车辆的座位数",
+    "token_type": "数值",
+    "TF": 2,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 3, "value":["座位数"]},
+      {"page_number": 4, "value":["座位数"]}
+    ]
+  },
+  {
+    "token": "气缸数",
+    "annotation": "车辆的气缸数",
+    "token_type": "数值",
+    "TF": 2,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 3, "value":["气缸数"]},
+      {"page_number": 4, "value":["气缸数"]}
+    ]
+  },
+  {
+    "token": "进气方式",
+    "annotation": "车辆的进气方式",
+    "token_type": "选项",
+    "TF": 2,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 3, "value":["进气方式"]},
+      {"page_number": 4, "value":["进气方式"]}
+    ]
+  },
+  {
+    "token": "安全配置",
+    "annotation": "车辆的安全配置",
+    "token_type": "选项",
+    "TF": 2,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 3, "value":["安全配置"]},
+      {"page_number": 4, "value":["安全配置"]}
+    ]
+  },
+  {
+    "token": "舒适配置",
+    "annotation": "车辆的舒适配置",
+    "token_type": "选项",
+    "TF": 2,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 3, "value":["舒适配置"]},
+      {"page_number": 4, "value":["舒适配置"]}
+    ]
+  }
+]
+
+

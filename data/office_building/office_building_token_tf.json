@@ -1,0 +1,128 @@
+[
+  {
+    "token": "区域",
+    "token_type": "选项",
+    "TF": 5,
+    "annotation":"写字楼所在的区域位置",
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["区域"]},
+      {"page_number": 3, "value":["区域"]},
+      {"page_number": 4, "value":["按区域"]},
+      {"page_number": 5, "value":["区域"]},
+      {"page_number": 6, "value":["区域找房"]}
+    ]
+  },
+
+  {
+    "token": "租金",
+    "annotation":"写字楼的租金范围",
+    "token_type": "范围",
+    "TF": 6,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["租金"]},
+      {"page_number": 2, "value":["租金"]},
+      {"page_number": 3, "value":["价格"]},
+      {"page_number": 4, "value":["价格"]},
+      {"page_number": 5, "value":["日租金"]},
+      {"page_number": 6, "value":["单价"]}
+    ]
+  },
+  {
+    "token": "面积",
+    "annotation":"写字楼的面积范围",
+    "token_type": "范围",
+    "TF": 5,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["面积"]},
+      {"page_number": 2, "value":["面积"]},
+      {"page_number": 3, "value":["面积"]},
+      {"page_number": 4, "value":["面积"]},
+      {"page_number": 5, "value":["面积"]}
+
+    ]
+  },
+  {
+    "token": "房屋类型",
+    "annotation":"写字楼类型",
+    "token_type": "选项",
+    "TF": 3,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["类型"]},
+      {"page_number": 2, "value":["类型"]}
+    ]
+  },
+
+  {
+    "token": "特色",
+    "annotation":"写字楼的特色",
+    "token_type": "选项",
+    "TF": 3,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["特色"]},
+      {"page_number": 2, "value":["特色"]},
+      {"page_number": 6, "value":["特色"]}
+    ]
+  },
+
+  {
+    "token": "更多找房条件",
+    "annotation":"更多找房条件",
+    "token_type": "选项",
+    "TF": 3,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["更多找房条件"]},
+      {"page_number": 2, "value":["更多找房条件"]},
+      {"page_number": 6, "value":["服务"]}
+    ]
+  },
+  {
+    "token": "地铁",
+    "annotation":"写字楼附近的地铁线路",
+    "token_type": "选项",
+    "TF": 4,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 2, "value":["地铁"]},
+      {"page_number": 4, "value":["按地铁线"]},
+      {"page_number": 5, "value":["地铁"]},
+      {"page_number": 6, "value":["地铁找房"]}
+    ]
+  },
+  {
+    "token": "距离",
+    "annotation":"写字楼距离地铁站的距离",
+    "token_type": "范围",
+    "TF": 1,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 2, "value":["距离"]}
+    ]
+  },
+
+  {
+    "token": "来源",
+    "annotation":"选择写字楼的信息来源",
+    "token_type": "选项",
+    "TF": 1,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 5, "value":["来源"]}
+    ]
+  },
+  {
+    "token": "销售状态",
+    "annotation":"写字楼的销售状态",
+    "token_type": "选项",
+    "TF": 1,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 6, "value":["销售状态"]}
+    ]
+  }
+]

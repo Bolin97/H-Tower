@@ -1,0 +1,27 @@
+[
+  {
+    "domain": "住房",
+    "path": "house",
+    "type": ["买二手房","租房","买新房"]
+  },
+  {
+    "domain": "车辆",
+    "path": "car",
+    "type": ["买二手车","买新车"]
+  },
+  {
+    "domain": "写字楼",
+    "path": "office_building",
+    "type": ["租写字楼","购买写字楼"]
+  },
+  {
+    "domain": "影视",
+    "path": "video",
+    "type": ["看电影","看综艺","看动漫","看少儿影视作品"]
+  },
+  {
+    "domain": "书籍",
+    "path": "book",
+    "type": ["看小说"]
+  }
+]

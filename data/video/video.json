@@ -1,0 +1,58 @@
+[
+  {
+    "page_index": 1,
+    "image": "id4_scrnli_2023_8_9 09-52-05.png",
+   "website": "https://www.youku.com/channel/webzy/list?filter=type_%E7%94%B5%E5%BD%B1",
+    "type": "看电影",
+    "required_tokens": ["类型","付费类型"]
+  },
+   {
+     "page_index": 2,
+     "image": "id4_scrnli_2023_8_9 09-52-23.png",
+   "website": "https://www.youku.com/channel/webzy/list?filter=type_%E7%BB%BC%E8%89%BA",
+    "type": "看综艺",
+     "required_tokens": []
+  },
+  {
+    "page_index": 3,
+    "image": "id4_scrnli_2023_8_9 09-52-49.png",
+   "website": "https://www.youku.com/channel/webcomic/list?filter=type_%E5%8A%A8%E6%BC%AB",
+    "type": "看动漫",
+    "required_tokens": ["类型","连载情况"]
+  },
+  {
+    "page_index": 4,
+    "image": "id4_scrnli_2023_8_9 09-54-07.png",
+   "website": "https://www.youku.com/channel/webchild/list?filter=type_%E5%B0%91%E5%84%BF",
+    "type": "看少儿影视作品",
+    "required_tokens": []
+  },
+  {
+    "page_index": 5,
+    "image": "id4_scrnli_2023_8_9 10-01-03.png",
+   "website": "https://www.bilibili.com/movie/index/",
+    "type": "看电影",
+    "required_tokens": ["付费类型"]
+  },
+  {
+    "page_index": 6,
+    "image": "id4_scrnli_2023_8_9 10-01-40.png",
+   "website": "https://www.bilibili.com/anime/index/",
+    "type": "看动漫",
+    "required_tokens": ["付费类型"]
+  },
+    {
+      "page_index": 7,
+    "image": "id4_scrnli_2023_8_10 18-12-40.png",
+   "website": "https://www.maoyan.com/films?showType=1",
+    "type": "看电影",
+      "required_tokens": []
+  },
+      {
+        "page_index": 8,
+    "image": "id4_scrnli_2023_8_10 20-08-04.png",
+   "website": "https://movie.douban.com/explore",
+    "type": "看电影",
+        "required_tokens": []
+  }
+]

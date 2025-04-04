@@ -1,0 +1,23 @@
+[
+  {
+    "page_index": 1,
+    "image": "id4_scrnli_2023_8_9 10-46-49.png",
+   "website": "https://www.qidian.com/all/",
+    "type": "看小说",
+    "required_tokens": []
+  },
+  {
+    "page_index": 2,
+    "image": "id4_scrnli_2023_8_9 10-55-16.png",
+   "website": "https://book.qq.com/book-cate",
+    "type": "看小说",
+    "required_tokens": ["属性"]
+  },
+  {
+    "page_index": 3,
+    "image": "id4_scrnli_2023_8_9 10-56-38.png",
+   "website": "https://www.zongheng.com/books",
+    "type": "看小说",
+    "required_tokens": ["状态"]
+  }
+]

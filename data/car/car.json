@@ -1,0 +1,44 @@
+[
+  {
+    "page_index": 1,
+    "image": "id4_scrnli_2023_8_9 10-29-57.png",
+   "website": "https://www.dongchedi.com/usedcar/x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x",
+    "type": "买二手车",
+    "required_tokens": ["价格","车龄"]
+  },
+  {
+    "page_index": 2,
+    "image": "id4_scrnli_2023_8_9 10-30-29.png",
+   "website": "https://www.dongchedi.com/auto/library-accurate/x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x",
+    "type": "买新车",
+    "required_tokens": ["价格"]
+  },
+  {
+    "page_index": 3,
+    "image": "id4_scrnli_2023_8_9 10-31-34.png",
+   "website": "https://www.dongchedi.com/auto/library/x-x-x-x-x-x-x-x-x-x-x",
+    "type": "买新车",
+    "required_tokens": ["级别"]
+  },
+  {
+    "page_index": 4,
+    "image": "id4_scrnli_2023_8_9 10-32-36.png",
+   "website": "https://www.dongchedi.com/auto/library-energy/x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x",
+    "type": "买新车",
+    "required_tokens": []
+  },
+  {
+    "page_index": 5,
+    "image": "id4_scrnli_2023_8_9 10-34-50.png",
+   "website": "https://car.autohome.com.cn/price/",
+    "type": "买新车",
+    "required_tokens": []
+  },
+  {
+    "page_index": 6,
+    "image": "id4_scrnli_2023_8_9 10-35-05.png",
+   "website": "https://car.autohome.com.cn/diandongche/index.html?#pvareaid=2042265",
+    "type": "买新车",
+    "required_tokens": []
+  }
+]

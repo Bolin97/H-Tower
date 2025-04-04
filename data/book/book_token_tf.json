@@ -1,0 +1,85 @@
+[
+  {
+    "token": "分类",
+    "token_type": "选项",
+    "TF": 3,
+    "annotation":"作品的分类",
+    "average_item_num": 6,
+    "pages": [
+      {"page_number": 1, "value":["分类"]},
+      {"page_number": 2, "value":["分类"]},
+      {"page_number": 3, "value":["作品分类"]}
+
+    ]
+  },
+  {
+    "token": "状态",
+    "annotation":"作品的连载状态",
+    "token_type": "选项",
+    "TF": 6,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["状态"]},
+      {"page_number": 2, "value":["状态"]},
+      {"page_number": 3, "value":["状态"]}
+    ]
+  },
+  {
+    "token": "属性",
+    "annotation":"作品的属性",
+    "token_type": "选项",
+   "TF": 3,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["属性"]},
+      {"page_number": 2, "value":["属性"]},
+      {"page_number": 3, "value":["作品状态"]}
+
+    ]
+  },
+  {
+    "token": "字数",
+    "annotation":"作品的字数",
+    "token_type": "范围",
+    "TF": 3,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["字数"]},
+      {"page_number": 2, "value":["字数"]},
+      {"page_number": 3, "value":["作品字数"]}
+    ]
+  },
+  {
+    "token": "品质",
+    "annotation":"作品的品质",
+    "token_type": "选项",
+    "TF": 1,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["品质"]}
+    ]
+  },
+  {
+    "token": "更新时间",
+    "annotation":"作品的更新时间范围",
+    "token_type": "选项",
+    "TF": 2,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["更新时间"]},
+      {"page_number": 2, "value":["更新时间"]}
+    ]
+  },
+  {
+    "token": "标签",
+    "annotation":"作品的标签",
+    "token_type": "选项",
+    "TF": 1,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["标签"]}
+    ]
+  }
+]
+
+

@@ -1,0 +1,160 @@
+[
+  {
+    "token": "地区",
+    "TF": 7,
+    "token_type": "选项",
+    "annotation":"制片的区域",
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["全部地区"]},
+      {"page_number": 2, "value":["全部地区"]},
+      {"page_number": 3, "value":["全部地区"]},
+      {"page_number": 4, "value":["全部地区"]},
+      {"page_number": 5, "value":["地区"]},
+      {"page_number": 7, "value":["区域"]},
+      {"page_number": 8, "value":["地区"]}
+    ]
+  },
+  {
+    "token": "类型",
+    "annotation":"影视作品的类型",
+    "token_type": "选项",
+    "TF": 8,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["全部类型"]},
+      {"page_number": 2, "value":["全部类型"]},
+      {"page_number": 3, "value":["全部类型"]},
+      {"page_number": 4, "value":["全部类型"]},
+      {"page_number": 5, "value":["风格"]},
+      {"page_number": 6, "value":["风格"]},
+      {"page_number": 7, "value":["类型"]},
+      {"page_number": 8, "value":["类型"]}
+
+    ]
+  },
+  {
+    "token": "分类",
+    "annotation":"影视作品的类别",
+    "token_type": "选项",
+    "TF": 8,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 4, "value":["全部分类"]},
+      {"page_number": 6, "value":["类型"]},
+      {"page_number": 8, "value":["类型"]}
+
+    ]
+  },
+  {
+    "token": "规格或版权",
+    "annotation":"影片的规格或版权",
+    "token_type": "选项",
+    "TF": 3,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["全部规格"]},
+      {"page_number": 2, "value":["全部规格"]},
+      {"page_number": 6, "value":["版权"]}
+    ]
+  },
+  {
+    "token": "年份",
+    "annotation":"影片的年份",
+    "token_type": "数值",
+    "TF": 7,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["全部年份"]},
+      {"page_number": 2, "value":["全部年份"]},
+      {"page_number": 3, "value":["全部年份"]},
+      {"page_number": 5, "value":["年份"]},
+      {"page_number": 6, "value":["年份"]},
+      {"page_number": 7, "value":["年代"]},
+      {"page_number": 8, "value":["年代"]}
+    ]
+  },
+  {
+    "token": "付费类型",
+    "annotation":"影片的付费类型",
+    "token_type": "选项",
+    "TF": 6,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["付费类型"]},
+      {"page_number": 2, "value":["付费类型"]},
+      {"page_number": 3, "value":["付费类型"]},
+      {"page_number": 4, "value":["付费类型"]},
+      {"page_number": 5, "value":["付费"]},
+      {"page_number": 6, "value":["付费"]}
+
+    ]
+  },
+  {
+    "token": "排序方式",
+    "annotation":"影片的排序方式",
+    "token_type": "选项",
+    "TF": 6,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["综合排序"]},
+      {"page_number": 2, "value":["热度最高"]},
+      {"page_number": 3, "value":["综合排序"]},
+      {"page_number": 4, "value":["综合排序"]},
+      {"page_number": 7, "value":["排序方式"]},
+      {"page_number": 8, "value":["排序"]}
+
+    ]
+  },
+  {
+    "token": "影片类型推荐",
+    "annotation":"推荐的影片类型",
+    "token_type": "选项",
+    "TF": 1,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["为你推荐"]}
+    ]
+  },
+  {
+    "token": "演员",
+    "annotation":"影片的演员",
+    "token_type": "选项",
+    "TF": 1,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 2, "value":["演员"]}
+    ]
+  },
+  {
+    "token": "节目",
+    "annotation":"影片的节目",
+    "token_type": "选项",
+    "TF": 1,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 2, "value":["节目"]}
+    ]
+  },
+  {
+    "token": "连载情况",
+    "annotation":"影片的连载情况",
+    "token_type": "选项",
+    "TF": 2,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 3, "value":["连载情况"]},
+      {"page_number": 6, "value":["状态"]}
+    ]
+  },
+  {
+    "token": "年龄分类",
+    "token_type": "选项",
+    "annotation":"影片的年龄分类",
+    "TF": 1,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 4, "value":["全部年龄"]}
+    ]
+  }
+]

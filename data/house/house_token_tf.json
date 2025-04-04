@@ -1,0 +1,233 @@
+[
+  {
+    "token": "区域",
+    "token_type": "选项",
+    "TF":0,
+    "annotation":"房屋所在的区域位置",
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["区域"]},
+      {"page_number": 2, "value":["区域"]},
+      {"page_number": 3, "value":["区域"]},
+      {"page_number": 5, "value":["区域"]},
+      {"page_number": 6, "value":["按区域"]},
+      {"page_number": 7, "value":["按区域"]},
+      {"page_number": 8, "value":["区域"]},
+      {"page_number": 9, "value":["区域"]},
+      {"page_number": 10, "value":["区域找房"]},
+      {"page_number": 11, "value":["区域"]}
+    ]
+  },
+  {
+    "token": "地铁",
+    "annotation":"房屋附近的地铁线路",
+     "token_type": "选项",
+    "TF":0,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["地铁"]},
+      {"page_number": 4, "value":["地铁"]},
+      {"page_number": 6, "value":["按地铁"]},
+      {"page_number": 7, "value":["按地铁"]},
+      {"page_number": 9, "value":["近地铁"]},
+      {"page_number": 10, "value":["地铁找房"]},
+      {"page_number": 11, "value":["地铁"]}
+    ]
+  },
+  {
+    "token": "总价",
+    "annotation":"房屋的总价范围，一般在购房时使用总价",
+     "token_type": "范围",
+    "TF":0 ,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["售价"]},
+      {"page_number": 2, "value":["总价"]},
+      {"page_number": 6, "value":["总价"]},
+      {"page_number": 7, "value":["总价"]},
+      {"page_number": 8, "value":["总价"]},
+      {"page_number": 10, "value":["总价"]}
+    ]
+  },
+  {
+    "token": "单价",
+    "annotation":"房屋的每月价格，购房或者租房都可以使用单价",
+     "token_type": "范围",
+    "TF":0 ,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 3, "value":["租金"]},
+      {"page_number": 4, "value":["租金"]},
+      {"page_number": 5, "value":["均价"]},
+      {"page_number": 9, "value":["均价"]},
+      {"page_number": 11, "value":["均价"]}
+    ]
+  },
+  {
+    "token": "面积",
+    "annotation":"房屋的面积范围",
+     "token_type": "数值",
+    "TF":0 ,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["面积"]},
+      {"page_number": 2, "value":["面积"]},
+      {"page_number": 5, "value":["类型"]},
+      {"page_number": 3, "value":["类型"]},
+      {"page_number": 4, "value":["类型"]},
+      {"page_number": 6, "value":["面积"]},
+      {"page_number": 7, "value":["面积"]},
+      {"page_number": 8, "value":["面积"]},
+      {"page_number": 10, "value":["面积"]}
+    ]
+  },
+  {
+    "token": "户型",
+    "annotation":"房屋的房间数量或居室规模",
+     "token_type": "数值",
+    "TF":0 ,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["房型"]},
+      {"page_number": 2, "value":["户型"]},
+      {"page_number": 3, "value":["户型"]},
+      {"page_number": 4, "value":["户型"]},
+      {"page_number": 6, "value":["户型"]},
+      {"page_number": 7, "value":["户型"]},
+      {"page_number": 8, "value":["户型"]},
+      {"page_number": 10, "value":["户型"]}
+    ]
+  },
+  {
+    "token": "特色",
+    "annotation":"房屋附加选项或特色",
+     "token_type": "选项",
+    "TF":0 ,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["特色"]},
+      {"page_number": 2, "value":["特色"]},
+      {"page_number": 3, "value":["更多"]},
+      {"page_number": 11, "value":["特色"]}
+    ]
+  },
+  {
+    "token": "朝向",
+    "annotation":"房屋的朝向",
+     "token_type": "选项",
+    "TF":0 ,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["朝向"]},
+      {"page_number": 2, "value":["朝向"]},
+      {"page_number": 3, "value":["朝向"]},
+      {"page_number": 4, "value":["朝向"]}
+
+    ]
+  },
+  {
+    "token": "楼层",
+    "annotation":"房屋的处在的楼层",
+     "token_type": "选项",
+    "TF":0 ,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["楼层"]},
+      {"page_number": 2, "value":["楼层"]}
+
+    ]
+  },
+  {
+    "token": "房龄",
+    "annotation":"房屋建造的年龄范围",
+     "token_type": "范围",
+    "TF":0 ,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["房龄"]},
+      {"page_number": 2, "value":["房龄"]},
+      {"page_number": 11, "value":["房龄"]}
+    ]
+  },
+  {
+    "token": "物业品牌",
+    "annotation":"房源的品牌物业",
+     "token_type": "选项",
+    "TF":0 ,
+    "average_item_num": 0,
+    "pages": [
+
+      {"page_number": 11, "value":["品牌物业"]}
+    ]
+  },
+  {
+    "token": "产权",
+    "annotation":"房屋的所有权类型",
+     "token_type": "选项",
+    "TF":0 ,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["产权"]}
+    ]
+  },
+  {
+    "token": "装修",
+    "annotation":"房屋装饰和装潢的各种程度和类型",
+     "token_type": "选项",
+    "TF":0 ,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["装修"]},
+      {"page_number": 2, "value":["装修"]}
+    ]
+  },
+  {
+    "token": "建筑类别",
+    "annotation":"房屋的建筑类型",
+     "token_type": "选项",
+    "TF":0 ,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 2, "value":["建筑类别"]}
+    ]
+  },
+  {
+    "token": "方式",
+    "annotation": "租房的不同选择或形式",
+     "token_type": "选项",
+    "TF":0 ,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 3, "value":["方式"]},
+      {"page_number": 4, "value":["方式"]}
+    ]
+  },
+  {
+    "token": "房屋类型",
+    "annotation": "房产的种类或类型",
+     "token_type": "选项",
+    "TF":0 ,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 1, "value":["物业类型"]},
+      {"page_number": 2, "value":["物业类型"]},
+      {"page_number": 3, "value":["类型"]},
+      {"page_number": 4, "value":["类型"]},
+      {"page_number": 5, "value":["类型"]},
+      {"page_number":10, "value":["物业"]}
+    ]
+  },
+  {
+    "token": "距离",
+    "annotation":"房屋离地铁站的距离",
+     "token_type": "范围",
+    "TF":0 ,
+    "average_item_num": 0,
+    "pages": [
+      {"page_number": 4, "value":["距离"]}
+
+    ]
+  }
+]
+
+
